@@ -4,9 +4,7 @@ Coding assignment for Perch Energy
 
 This assignment assumes that a Subscription has to both a Customer and a Solar System attached to it. 
 
-A Customer can have multiple Subscriptions and a Solar System can also have multiple Subscriptions. 
-
-A Solar System can only have one Active Subscription at a time. 
+The Subscription is the child object of a Master Detail Relationship to both Solar System and Customer. This makes both Customer and Solar System required on the Subscription object. Solar Systems can have multiple Subscriptions but a Solar System can only have one Active Subscription at a time. A Customer can have many Subscriptions which tie it to many Solar Systems. A Subscription can only have one of each Customer and Solar System.
 
 Fields and Objects:
 
@@ -21,7 +19,6 @@ Solar System:
   Subscription Start Date 
   , Subscription End Date
   , Active (Boolean)
-
 
 
 The SubscriptionEffectiveDate_Batch() will be scheduled before the workday starts every day. Likely 3-4AM.
