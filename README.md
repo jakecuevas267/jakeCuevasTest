@@ -11,16 +11,16 @@ A Solar System can only have one Active Subscription at a time.
 Fields and Objects:
 
 Subscription:
-  Start Date
-  End Date
-  Status (Active/Inactive)
-  Customer
-  Solar System
+  Start Date 
+  , End Date
+  , Status (Active/Inactive)
+  , Customer
+  , Solar System
   
-Solar System
-  Subscription Start Date
-  Subscription End Date
-  Active (Boolean)
+Solar System:
+  Subscription Start Date 
+  , Subscription End Date
+  , Active (Boolean)
 
 
 
